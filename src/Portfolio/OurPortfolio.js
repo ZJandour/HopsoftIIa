@@ -1,4 +1,4 @@
-import "./OurPorfolio.css"
+import "./OurPortfolio.css"
 import {GiOpenFolder}from "react-icons/gi"
 import drivers from "../image/drivers.png"
 import modules from "../image/modules.webp"
