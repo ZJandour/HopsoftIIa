@@ -1,6 +1,8 @@
 import Navbar from "./components/Navbar"
 import Footer from "./components/Footer"
 import AboutUs  from "./AboutUs"
+import OurPortfolio from "./Portfolio/OurPortfolio"
+import AllCategories from "./Portfolio/AllCategories"
 
 
 const App = () => {
@@ -8,6 +10,8 @@ const App = () => {
     <div>
       <Navbar/>
       <AboutUs/>
+      <OurPortfolio/>
+      <AllCategories/>
       <Footer/>
      
     </div>

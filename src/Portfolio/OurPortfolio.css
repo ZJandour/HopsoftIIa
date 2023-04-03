@@ -1,0 +1,74 @@
+.all-our-portfolio {
+    color: grey;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+.section-portfolio{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+    margin-top: 10%;
+}
+.image-modules, .image-drivers, .image-apps{
+    width: 50%;
+    height: 30%;
+    margin-top: -40%; 
+}
+.icon-portfolio{
+    color:rgb(65, 184, 65);
+    font-size:xx-large;
+    margin-top: 5%;
+}
+.all-our-portfolio button{
+    color: white;
+    background-color: rgb(65, 184, 65);
+    border-radius: 30px;
+    border: none;
+    width: 70%;
+}
+.drivers-portfolio, .modules, .apps{
+    width: 30%;
+    height: 70%;
+    border: 2px solid grey;
+    margin: 1%;
+    padding: 3%;
+    background-color: white;
+    position: relative;
+}
+.shadou-box{
+    width: 100%;
+    background-color:rgb(242, 242, 242);
+    position:sticky;
+    margin-top: -20%;
+    height: 300px;
+    position:static;
+}
+@media (max-width:740px){
+    .section-portfolio{
+        margin-left: 30px;
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .drivers-portfolio, .modules {
+        height: auto;
+        width: 35%;
+        margin-right: 0;
+       margin: 10px;
+    }
+    .apps{
+        width: 35%;
+        margin-right: 0;
+        margin-bottom: 20px;
+        margin-left: 25%;
+        margin-top: 15%;
+    }
+    .shadou-box{
+        margin-top: auto;
+        height: 150px;
+    }
+}
