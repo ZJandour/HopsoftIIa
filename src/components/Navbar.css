@@ -1,0 +1,153 @@
+nav{
+    background-color: white;
+}
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   height: 90px;
+    width: 100%;
+    margin: auto;
+}
+.nav-header{
+    display: flex;
+    flex-direction: row; 
+    width: 200px;
+}
+.nav-header img{
+    width: 100%;
+    margin: 20px 0px 20px 20px;
+}
+.nav-header button{
+    display: none;
+}
+.nav-list{
+    display: flex;
+    flex-direction: row; 
+   margin: 0px 0px 0px 0px;
+   align-items:flex-end;
+}
+.nav-list li{
+    display: inline-block; 
+    margin-left: 10px;
+}
+.nav-list a{
+    text-decoration: none;
+    color: grey;
+    font-size:medium;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif
+}
+.nav-link:active {
+    color:rgb(65, 184, 65);;
+  }
+  /*
+  .nav-link:visited {
+    color: purple;
+  }*/
+.icons{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-end;
+    margin: 0px 20px 40px 0px;
+}
+.control, .rti, .elan{
+    width: 40%;
+    height: 10px;
+    margin: 5px;
+}
+.home-navbar{
+    width: 100%;
+    height: 40vh;
+    min-height: 250px;
+}
+.motto{
+    width: 45vh;
+    line-height: 40%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 50px 250px;
+    justify-content: center;
+}
+.motto h2 {
+    color: gray;
+    font-size:larger;
+}
+.motto h2:last-of-type{
+    font-weight:lighter;
+    margin: 15px -70px;
+}
+.motto h3{
+    color:rgb(65, 184, 65);
+}
+.motto h3:first-of-type, h3:last-of-type{
+    font-weight: lighter;
+    margin: 0px -30px;
+}
+.all-home-motto{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.motto button{
+    color: white;
+    background-color: rgb(65, 184, 65);
+    border: none;
+    border-radius: 15px;
+    margin: 15px 0px;
+    padding: 5px;
+    font-size:xx-small¨;
+    cursor: pointer;
+}
+.icon{
+    display: flex;
+    flex-direction:row;
+    width: 70%;
+    margin: 10px 15%;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.green  {
+    color:rgb(65, 184, 65);
+    font-weight: bolder;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+}
+@media (max-width:740px) {
+    .navigation{
+        height: 150px;
+        flex-direction: row; 
+        justify-content: center; 
+        align-items: flex-start;
+        position: relative;
+    }
+    .nav-header{
+        margin-top: 0px;
+        position: absolute;
+        justify-content: left;
+        align-items: start;
+        margin-left: -50%;
+    }
+    .nav-list{
+        margin-top: 80px;
+        display: flex;
+        flex-direction: row;
+        width:500px ;
+        position: absolute;
+        justify-content: center;
+    }
+    .icons{
+        margin-left: 62%;
+        margin-top: 30px;
+         }
+    .motto{
+        text-align: left;
+        margin-left: 25%;
+    }
+}
